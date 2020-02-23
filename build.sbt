@@ -13,7 +13,7 @@ libraryDependencies ++= Seq(
 )
 
 // META-INF discarding
-
+//
 // mergeStrategy in assembly <<= (mergeStrategy in assembly) { (old) =>
 //    {
 //     case PathList("META-INF", xs @ _*) => MergeStrategy.discard

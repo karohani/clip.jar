@@ -87,7 +87,6 @@ object Clip {
 
 
   def main(args: Array[String]): Unit = {
-    args.map(println)
     args.toList match {
       case List("--uuid", directory) => saveClipboardImageUUID(directory)
       case List("--name", name) => saveClipboardImage(".", name)
